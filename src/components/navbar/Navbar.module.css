@@ -1,0 +1,48 @@
+.nav {
+  height: 4rem;
+  border-bottom: 1px solid var(--color-background);
+  display: flex;
+  padding: 1rem;
+  gap: 4px;
+  align-items: center;
+}
+.buttonBorder {
+  color: var(--color-dark-gray);
+  border: none;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-background);
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.buttonBorder:hover {
+  background-color: var(--color-hover);
+}
+.buttonStyleNone {
+  cursor: pointer;
+  color: var(--color-mild-gray);
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  padding: 4px;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonStyleNone:hover {
+  background-color: var(--color-hover);
+}
+.currentDate {
+  font-size: 1.5rem;
+  color: var(--color-dark-gray);
+  font-weight: 300;
+}
+.navEnd {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+}

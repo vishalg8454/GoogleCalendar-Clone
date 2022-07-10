@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?lang=en&family=Product+Sans|Roboto:400,700");
+:root {
+  --color-dark-gray: #3c4043;
+  --color-light-gray: #70757a;
+  --color-mild-gray: #5f6368;
+  --color-dark-blue: #0000ff;
+  --color-white: #ffffff;
+  --color-background: #dadce0;
+  --color-hover:rgba(32, 33, 36, 0.039);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "ProductSans", sans-serif;
+  font-size: 16px;
+}
